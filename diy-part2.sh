@@ -13,3 +13,5 @@
 #Modify default IP
 sed -i 's/192.168.1.1/10.0.0.4/g' package/base-files/files/bin/config_generate
 
+#Modify default password
+sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
